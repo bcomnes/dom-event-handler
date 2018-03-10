@@ -1,0 +1,19 @@
+{
+  "name": "dom-event-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcomnes/dom-event-handler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcomnes/dom-event-handler/issues"
+  },
+  "homepage": "https://github.com/bcomnes/dom-event-handler#readme"
+}

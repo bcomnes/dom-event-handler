@@ -17,6 +17,10 @@ test('can insatiate and has required API methods', t => {
   t.equal(typeof handler.handleEvent, 'function', 'handleEvent is defined')
   t.true(Array.isArray(handler.events), 'events getter returns an array')
   t.equal(handler.events.length, 1, 'events getter has one event')
+  t.throws(() => {
+    const handler = new DOMEventHandler()
+    console.log(handler.events)
+  }, /context is required/, 'missing context throws')
   t.end()
 })
 

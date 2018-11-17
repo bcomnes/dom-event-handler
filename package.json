@@ -1,6 +1,6 @@
 {
   "name": "dom-event-handler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A generic dom event handler as a class property",
   "main": "index.js",
   "scripts": {

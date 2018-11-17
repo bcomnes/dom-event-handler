@@ -47,7 +47,7 @@ test('handles events when instantiated with a node', t => {
   const ctx = new HandlerClass()
   const handler = new DOMEventHandler(ctx, node)
   t.true(existy(handler), 'handler created')
-  var event = new CustomEvent('customevent', { detail: {unicorn: 'rainbows'} })
+  var event = new CustomEvent('customevent', { detail: { unicorn: 'rainbows' } })
 
   node.dispatchEvent(event)
 })
@@ -66,7 +66,7 @@ test('handles events when attached after the fact', t => {
   const ctx = new HandlerClass()
   const handler = new DOMEventHandler(ctx)
   handler.addEventListeners(node)
-  var event = new CustomEvent('customevent', { detail: {unicorn: 'rainbows'} })
+  var event = new CustomEvent('customevent', { detail: { unicorn: 'rainbows' } })
 
   node.dispatchEvent(event)
 })
@@ -84,7 +84,7 @@ test('doesnt handle events when removed', t => {
   const ctx = new HandlerClass()
   const handler = new DOMEventHandler(ctx, node)
   t.true(existy(handler), 'handler created')
-  var event = new CustomEvent('customevent', { detail: {unicorn: 'rainbows'} })
+  var event = new CustomEvent('customevent', { detail: { unicorn: 'rainbows' } })
   handler.removeEventListeners(node)
   node.dispatchEvent(event)
   setTimeout(() => {

@@ -1,5 +1,4 @@
 # dom-event-handler
-
 [![npm version][npmimg]][npm] [![build status][travisimg]][travis] [![coverage][coverallsimg]][coveralls]
 [![downloads][downloadsimg]][downloads] [![js-standard-style][standardimg]][standard]
 

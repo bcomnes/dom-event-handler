@@ -16,7 +16,7 @@ import DOMEventHandler from "dom-event-handler"
 
 class MyWSController extends SomeOtherClass {
   constructor () {
-    this.ws = new WebSocket('ws://localhost:8080');
+    this.ws = new WebSocket('ws://localhost:8080')
     this.handler = new DOMEventHandler(this, this.ws)
   }
   

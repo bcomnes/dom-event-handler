@@ -58,15 +58,15 @@ A getter that returns all events found on the `ctx` the handler is bound to.  A 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
 
-[stabilityimg]: https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square
+[stabilityimg]: https://img.shields.io/badge/stability-experimental-orange.svg
 [stability]: https://nodejs.org/api/documentation.html#documentation_stability_index
-[npmimg]: https://img.shields.io/npm/v/jsonfeed-to-rss.svg?style=flat-square
-[npm]: https://npmjs.org/package/jsonfeed-to-rss
-[travisimg]: https://img.shields.io/travis/bcomnes/jsonfeed-to-rss/master.svg?style=flat-square
-[travis]: https://travis-ci.org/bcomnes/jsonfeed-to-rss
-[downloadsimg]: http://img.shields.io/npm/dm/jsonfeed-to-rss.svg?style=flat-square
-[downloads]: https://npmjs.org/package/jsonfeed-to-rss
-[standardimg]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[npmimg]: https://img.shields.io/npm/v/dom-event-handler.svg
+[npm]: https://npmjs.org/package/dom-event-handler
+[travisimg]: https://img.shields.io/travis/bcomnes/dom-event-handler/master.svg
+[travis]: https://travis-ci.org/bcomnes/dom-event-handler
+[downloadsimg]: http://img.shields.io/npm/dm/dom-event-handler.svg
+[downloads]: https://npmjs.org/package/dom-event-handler
+[standardimg]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
 [standard]: https://github.com/feross/standard
-[coverallsimg]: https://img.shields.io/coveralls/bcomnes/jsonfeed-to-rss/master.svg?style=flat-square
-[coveralls]: https://coveralls.io/github/bcomnes/jsonfeed-to-rss
+[coverallsimg]: https://img.shields.io/coveralls/bcomnes/dom-event-handler/master.svg
+[coveralls]: https://coveralls.io/github/bcomnes/dom-event-handler

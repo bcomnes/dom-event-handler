@@ -1,7 +1,5 @@
 # dom-event-handler
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/bcomnes/dom-event-handler.svg)](https://greenkeeper.io/)
-
 [![npm version][npmimg]][npm] [![build status][travisimg]][travis] [![coverage][coverallsimg]][coveralls]
 [![downloads][downloadsimg]][downloads] [![js-standard-style][standardimg]][standard]
 

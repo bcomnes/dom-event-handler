@@ -1,7 +1,7 @@
 {
   "name": "dom-event-handler",
   "description": "A generic dom event handler as a class property",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
   "bugs": {
     "url": "https://github.com/bcomnes/dom-event-handler/issues"

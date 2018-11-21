@@ -2,7 +2,7 @@
 [![npm version][npmimg]][npm] [![build status][travisimg]][travis] [![coverage][coverallsimg]][coveralls]
 [![downloads][downloadsimg]][downloads] [![js-standard-style][standardimg]][standard]
 
-A generic DOM event handler.  Works great in the browser.  Does't work great in the Node.js ecosystem.
+A generic DOM event handler implementing the [EventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventListener) interface for class methods.  Works great in the browser.  Does't work great in the Node.js ecosystem.
 
 ## Installation
 ```console

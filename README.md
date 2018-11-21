@@ -2,7 +2,7 @@
 [![npm version][npmimg]][npm] [![build status][travisimg]][travis] [![coverage][coverallsimg]][coveralls]
 [![downloads][downloadsimg]][downloads] [![js-standard-style][standardimg]][standard]
 
-A generic DOM event handler.  Inspired by a @webreflection [article](https://medium.com/@WebReflection/dom-handleevent-a-cross-platform-standard-since-year-2000-5bf17287fd38).
+A generic DOM event handler.  Works great in the browser.  Does't work great in the Node.js ecosystem.
 
 ## Installation
 ```console
@@ -12,7 +12,7 @@ $ npm install dom-event-handler
 ## Usage
 
 ```js
-import DOMEventHandler from "dom-event-handler"
+const DOMEventHandler = require("dom-event-handler")
 
 class MyWSController extends SomeOtherClass {
   constructor () {
@@ -88,6 +88,12 @@ Implements the [`eventListener.handleEvent`](https://developer.mozilla.org/en-US
 #### `handler.events`
 
 A getter that returns all events found on the `ctx` the handler is bound to.  The events returned from this getter are what get attached and detached in the above methods.
+
+## See also
+
+This module was inspired by a @webreflection [article](https://medium.com/@WebReflection/dom-handleevent-a-cross-platform-standard-since-year-2000-5bf17287fd38).
+
+ This is a slick API, but has poor support in the Node.js ecosystem due to poor support for the [EventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventListener) interface ([Node.js style events](https://nodejs.org/api/events.html) do not support [handleEvent](https://developer.mozilla.org/en-US/docs/Web/API/EventListener/handleEvent) or similar).  For a similar API see [node-event-handler](https://github.com/bcomnes/node-event-handler), which lacks the bind free benefits of this approach, but can provide a stand-in api when writing universal Node.js code.
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)

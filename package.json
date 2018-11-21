@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/bcomnes/dom-event-handler#readme",
   "keywords": [
-    "WebReflection",
     "arrow function",
     "bind",
+    "EventListener",
     "dom event handler",
     "event",
     "event handler",

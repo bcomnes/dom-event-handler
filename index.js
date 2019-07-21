@@ -17,9 +17,11 @@ class DOMEventHandler {
     )
   };
 
-  handleEvent (event) { this.ctx['on' + event.type](event) };
-  addEventListeners (node) { for (let events = this.events, i = events.length; i--; node.addEventListener(events[i], this)); };
-  removeEventListeners (node) { for (let events = this.events, i = events.length; i--; node.removeEventListener(events[i], this)); };
+  handleEvent (event) { this.ctx['on' + event.type](event) }
+
+  addEventListeners (node) { for (let events = this.events, i = events.length; i--; node.addEventListener(events[i], this)); }
+
+  removeEventListeners (node) { for (let events = this.events, i = events.length; i--; node.removeEventListener(events[i], this)); }
 }
 
 module.exports = DOMEventHandler

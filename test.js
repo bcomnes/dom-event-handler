@@ -34,7 +34,7 @@ test('works even without handlers', t => {
 })
 
 test('handles events when instantiated with a node', t => {
-  const dom = new JSDOM(`<!DOCTYPE html><p id='node'>Hello world</p>`)
+  const dom = new JSDOM('<!DOCTYPE html><p id=\'node\'>Hello world</p>')
   const node = dom.window.document.querySelector('p')
   const CustomEvent = dom.window.CustomEvent
 
@@ -53,7 +53,7 @@ test('handles events when instantiated with a node', t => {
 })
 
 test('handles events when attached after the fact', t => {
-  const dom = new JSDOM(`<!DOCTYPE html><p id='node'>Hello world</p>`)
+  const dom = new JSDOM('<!DOCTYPE html><p id=\'node\'>Hello world</p>')
   const node = dom.window.document.querySelector('p')
   const CustomEvent = dom.window.CustomEvent
 
@@ -72,7 +72,7 @@ test('handles events when attached after the fact', t => {
 })
 
 test('doesnt handle events when removed', t => {
-  const dom = new JSDOM(`<!DOCTYPE html><p id='node'>Hello world</p>`)
+  const dom = new JSDOM('<!DOCTYPE html><p id=\'node\'>Hello world</p>')
   const node = dom.window.document.querySelector('p')
   const CustomEvent = dom.window.CustomEvent
 

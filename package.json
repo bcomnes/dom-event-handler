@@ -21,7 +21,7 @@
     "snazzy": "^8.0.0",
     "standard": "^14.0.0",
     "tape": "^4.7.0",
-    "tape-run": "^6.0.0"
+    "tape-run": "^7.0.0"
   },
   "homepage": "https://github.com/bcomnes/dom-event-handler#readme",
   "keywords": [

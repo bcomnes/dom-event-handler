@@ -49,5 +49,9 @@
     "test:lint": "standard --verbose | snazzy",
     "test:tape": "nyc tape 'test.js' | tap-format-spec",
     "release": "git push && git push --tags && gh-release && npm publish"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/bcomnes"
   }
 }
